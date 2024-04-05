@@ -1,0 +1,9 @@
+body{
+    
+    background-image: url(./11.png);
+     /* Ajusta la imagen para que cubra todo el cuerpo */
+    background-position: center;
+    background-repeat:no-repeat;
+    object-fit: cover;
+    
+}

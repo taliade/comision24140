@@ -1,0 +1,65 @@
+/* 
+11009E ;
+
+px
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Crafty+Girls&display=swap');
+
+
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+}
+
+.box1{
+    width: 80%;
+    height: 350%;
+    background-color: blue;
+    margin: 30px; /*  1.875rem
+    */ 
+}
+
+.box2{
+    width: 20em;
+    height: 20em;
+    background-color: yellow;
+    margin: 50px;
+}
+
+.box3{
+    width: 30vw;
+    height: 30vh;
+    background-color: green;
+    margin: 20px;
+}
+
+.box4{
+    width: 60vw;
+    height: 60vh;
+    background-color: rgba(36, 125, 125, 0.654);
+    margin: 0;
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+
+}
+
+
+body{
+    background-image: url(../Clase-N4/img/miniatura-youtube.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 60vh;
+    font-family: "Asset", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
