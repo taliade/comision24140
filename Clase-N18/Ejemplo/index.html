@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <button onclick="clonar()">Copiar</button>
+        <p>Presionando el botón se copia un elemento de una lista a otra.</p>
+        <ul id="lista1"><li>Café</li><li>Té</li></ul>
+        <ul id="lista2"><li>Agua</li><li>Leche</li></ul>
+        <p>Cambiando <b>deep</b> a false sólo se clonan elementos vacíos.</p>
+
+            <p id="p1">Este texto se va a borrar.</p>
+            <script>
+            const p = document.getElementById("p1")
+            p.innerHTML = "Codo a Codo" // <p id="p1">Codo a Codo</p>
+            p.className = "dato" // <p id="p1" class="data">Codo a Codo</p>
+            p.style.color = "red"
+            p.style.background = "Blue";
+            const img = document.createElement("img")
+            img.src = "https://lenguajejs.com/assets/logo.svg"
+            img.alt = "Logo Javascript"
+            document.body.appendChild(img)
+
+
+      
+        function clonar() {
+        const nodo = document.getElementById("lista2").lastChild //Leemos el nodo a clonar, lo
+        const clon = nodo.cloneNode(true); //clonamos y guardamos en “clon”
+        document.getElementById("lista1").appendChild(clon) //Y lo agregamos en la lista2
+        }
+        </script>
+    </body>
+</html>
