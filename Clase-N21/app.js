@@ -20,15 +20,15 @@
 
 
 
-const URL = 'https://api.thecatapi.com/v1/images/search';
+// const URL = 'https://api.thecatapi.com/v1/images/search';
 
-fetch(URL)
-.then(res => res.json())
-.then(data =>{
-   const img = document.querySelector('img');
-  img.src = data[0].url; //data del json  
+// fetch(URL)
+// .then(res => res.json())
+// .then(data =>{
+//    const img = document.querySelector('img');
+//   img.src = data[0].url; //data del json  
    
-});
+// });
 
 
 // const URL = 'https://api.thecatapi.com/v1/images/search?limit=5'; // Limitado a 5 imágenes
